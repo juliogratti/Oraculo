@@ -1,0 +1,91 @@
+
+
+/* ========================= layout ======================== */
+html, body, .capa {
+	height: 100%;
+}
+
+body {
+	background: url('imagens/capa.png'),
+				url('imagens/ruido.png'),
+				linear-gradient(10deg,#99FFCC,#99FFCC);
+	background-attachment: fixed;
+	font-family: Helvetica,Arial,sans-serif;
+	overflow-x: hidden; /*remover barra de navegação vertical*/
+}
+
+
+/* -- Botoes -- */
+.btn-custom {
+	color: white;
+	border-radius: 500px;
+	-webkit-border-radius: 500px;
+    -moz-border-radius: 500px;
+    padding: 10px 35px;
+    margin: 0px 15px;
+    text-transform: uppercase;
+    transition: background 0.4s, color 0.4s;
+}
+
+.btn-roxo {
+	background: #7c25f8;
+}
+.btn-roxo:hover {
+	background-color: #6207e3;
+	color: white;
+}
+
+.btn-branco {
+	border: 2px solid white;
+}
+.btn-branco:hover {
+	background-color: white;
+	color: black;
+}
+
+/* -- rodape -- */
+footer{
+	background: #000;
+	padding: 50px 0px 20px 0px;
+	position: relative;
+}
+
+.item-rede-social{
+	float: right;
+
+}
+/* ========================= Tipografia ======================== */
+h1 {
+	font-size: 100px;
+	font-weight: 900;
+	letter-spacing: -0.05em;
+	margin-bottom: 50px;
+}
+
+h2{
+	font-size: 50px;
+	font-weight: 700;
+	letter-spacing: -0.04em;
+}
+
+h3{
+	font-size: 35px;
+	font-weight: 700;
+	letter-spacing: -0.04em;
+}
+
+#rodape h4{
+	color: #919496;
+	font-size: 12px;
+	text-transform: uppercase;
+
+
+}
+
+#servicos h2, #servicos h3{ /* formatar apenas os h2 e h3 dentro de serviços*/
+	color: #7c25f8;
+}
+
+#recursos h3{ /* formatar apenas h3 dentro de recursos*/
+	color: #9bf0e1;
+}
